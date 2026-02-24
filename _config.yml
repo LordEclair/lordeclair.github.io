@@ -1,0 +1,40 @@
+title: "Lord Eclair"
+
+author:
+  name: Lord Eclair
+  email: lordeclair@example.com
+description: >
+  Iaculis massa nisl malesuada lacinia integer nunc posuere. 
+  
+# Build settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+jekyll:
+  post_order: descending
+
+# Minima-specific settings
+minima:
+  skin: auto
+  nav_pages:
+    - about.md
+    - blog.md
+    - toolbox.md 
+  social_links:
+    - title: github
+      icon: github
+      url: "#"
+    - title: x-twitter
+      icon: x-twitter
+      url: "#"
+    - title: linkedin       
+      icon: linkedin     
+      url: "#" 
+  hide_site_feed_link: true
+
+baseurl: ""
+url: "https://lordeclair.github.io"
+
+footer_content: "© 2026 Lord Eclair. All rights reserved."
